@@ -1,3 +1,4 @@
 service : {
-    "greet": (text) -> (text) query;
+    "increment": () -> (int32);
+    "decrement": () -> (int32);
 }
